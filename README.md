@@ -21,10 +21,11 @@
 <table>
   <thead><tr><th>Project</th><th>它解决什么</th><th>入口</th></tr></thead>
   <tbody>
-    <tr><td>🔎 <a href="https://github.com/FengLi-AI/analyze-internet-product"><strong>analyze-internet-product</strong></a></td><td>基于页面证据拆解用户旅程、产品机制与架构，输出可离线查看的分析报告。</td><td><a href="https://github.com/FengLi-AI/analyze-internet-product">查看项目 ↗</a></td></tr>
-    <tr><td>📄 <a href="https://github.com/FengLi-AI/prd-to-feishu-docs"><strong>prd-to-feishu-docs</strong></a></td><td>从 PRD 梳理所需产品文档，并在确认后创建飞书文档、组织层级与回读核验。</td><td><a href="https://github.com/FengLi-AI/prd-to-feishu-docs">查看项目 ↗</a></td></tr>
+    <tr><td>🧭 <a href="https://github.com/FengLi-AI/InTeam"><strong>InTeam</strong></a></td><td>面向企业内部的新员工入职助手，结合上手地图、知识问答与可确认的行动计划。</td><td><a href="https://github.com/FengLi-AI/InTeam">查看项目 ↗</a></td></tr>
     <tr><td>🎨 <a href="https://github.com/FengLi-AI/create-article-visuals"><strong>create-article-visuals</strong></a></td><td>为多平台文章策划、生成、检查与导出头图、正文配图和知识卡片。</td><td><a href="https://github.com/FengLi-AI/create-article-visuals">查看项目 ↗</a></td></tr>
     <tr><td>🧩 <a href="https://github.com/FengLi-AI/agent-blueprint-v1.3"><strong>agent-blueprint-v1.3</strong></a></td><td>把 Agent 需求映射到架构方案、Harness 组件与项目骨架，提供落地参考。</td><td><a href="https://github.com/FengLi-AI/agent-blueprint-v1.3">查看项目 ↗</a></td></tr>
+    <tr><td>✍️ <a href="https://github.com/FengLi-AI/human-writing-fengliai"><strong>human-writing-fengliai</strong></a></td><td>覆盖中文选题、研究、写作、改稿与平台适配，让内容贴近真实材料与个人表达。</td><td><a href="https://github.com/FengLi-AI/human-writing-fengliai">查看项目 ↗</a></td></tr>
+    <tr><td>🔎 <a href="https://github.com/FengLi-AI/analyze-internet-product"><strong>analyze-internet-product</strong></a></td><td>基于页面证据拆解用户旅程、产品机制与架构，输出可离线查看的分析报告。</td><td><a href="https://github.com/FengLi-AI/analyze-internet-product">查看项目 ↗</a></td></tr>
   </tbody>
 </table>
 

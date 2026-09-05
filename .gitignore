@@ -1,0 +1,5 @@
+.DS_Store
+._*
+qa/
+*.local.json
+__pycache__/

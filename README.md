@@ -6,7 +6,7 @@
 
 <p>我是 <strong>FengLi / 李烽立，一名 AI 产品经理。</strong></p>
 
-<p>我围绕真实问题探索 AI 产品，从需求梳理、原型设计，到 Agent Skills 和工具实践。<br>
+<p>我围绕真实问题探索 AI 产品，从需求梳理、原型设计，到 Agent 产品、Skills 与工具实践。<br>
 也把过程中的方法与经验整理成文档、文章和可复用的工作流。<br>
 希望让技术回到具体的使用场景，把想法做成能用的东西。</p>
 
@@ -21,7 +21,7 @@
 <table>
   <thead><tr><th>Project</th><th>它解决什么</th><th>入口</th></tr></thead>
   <tbody>
-    <tr><td>🧭 <a href="https://github.com/FengLi-AI/InTeam"><strong>InTeam</strong></a></td><td>面向企业内部的新员工入职助手，结合上手地图、知识问答与可确认的行动计划。</td><td><a href="https://github.com/FengLi-AI/InTeam">查看项目 ↗</a></td></tr>
+    <tr><td>🧭 <a href="https://github.com/FengLi-AI/InTeam"><strong>InTeam</strong></a></td><td>企业知识助手与任务准备 Agent，支持员工上手和展厅讲解；自主查阅资料、整理准备材料，行动由用户确认。</td><td><a href="https://github.com/FengLi-AI/InTeam">查看项目 ↗</a></td></tr>
     <tr><td>🌱 <a href="https://github.com/FengLi-AI/JotBloom-Notch-Assistant"><strong>萌生｜JotBloom</strong></a></td><td>面向轻度创作与日常办公的 Mac 刘海屏助手，支持灵感记录、剪贴板回看、提示词管理与 AI 对话。</td><td><a href="https://fengli-ai.github.io/JotBloom-Notch-Assistant/">访问官网 ↗</a></td></tr>
     <tr><td>🎨 <a href="https://github.com/FengLi-AI/create-article-visuals"><strong>create-article-visuals</strong></a></td><td>为多平台文章策划、生成、检查与导出头图、正文配图和知识卡片。</td><td><a href="https://github.com/FengLi-AI/create-article-visuals">查看项目 ↗</a></td></tr>
     <tr><td>🧩 <a href="https://github.com/FengLi-AI/agent-blueprint-v1.3"><strong>agent-blueprint-v1.3</strong></a></td><td>把 Agent 需求映射到架构方案、Harness 组件与项目骨架，提供落地参考。</td><td><a href="https://github.com/FengLi-AI/agent-blueprint-v1.3">查看项目 ↗</a></td></tr>

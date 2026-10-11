@@ -8,7 +8,7 @@
 - `assets/profile-light.svg`：主视觉及自动循环动画，无 JavaScript、外部字体或外部图片依赖。
 - `assets/profile-light-static.svg`：静态备份。
 - `source/profile-body.html`：个人介绍、文字社交链接、代表作表格和关注方向。
-- `source/content.json`：软件名称、画面英文标签、真实入口地址、动画速度配置。
+- `source/content.json`：产品方法与 AI 能力词条、画面标签、真实入口地址、动画速度配置。
 - `source/figma-light.svg`：原画板导出，保留为视觉基线。
 - `source/text-outlines.json`：软件词条和英文标签的字体轮廓，不包含字体文件。
 - `build.py`：从源文件生成 README、动效图和本地预览。
@@ -23,7 +23,7 @@
 python3 build.py
 ```
 
-软件名称必须有对应的 `source/text-outlines.json` 轮廓。删除、排序、链接更新和速度修改不需要重新操作 Figma。
+词条必须有对应的 `source/text-outlines.json` 轮廓。删除、排序、链接更新和速度修改不需要重新操作 Figma。
 
 ## 新增软件词条
 
@@ -45,7 +45,7 @@ swift source/outline-text.swift outline-jobs.local.json > new-outlines.local.jso
 
 SVG 自带屏幕行显现、光标闪烁、按键起伏、灵感冒出、弧形文字旋转、星星浮动与斜向滚动带。系统设置减少动态效果时，CSS 会停止动画并保留静态内容。
 
-整张主图只链接个人网站。原图中的社交名称已改成 PROMPT ENGINEERING 和 AGENT LOOP，独立社交入口放在下方个人介绍的文字链接中。公众号使用用户提供的公开文章，通过文章作者进入公众号；不得使用带登录 token 的后台地址。
+整张主图只链接个人网站。原图中的社交名称已改成 用户洞察和产品策略，独立社交入口放在下方个人介绍的文字链接中。公众号使用用户提供的公开文章，通过文章作者进入公众号；不得使用带登录 token 的后台地址。
 
 GitHub README 不执行自定义 JS，因此没有悬停放大和复制微信号功能。GitHub 外围主题不受画面控制。
 
@@ -54,3 +54,7 @@ GitHub README 不执行自定义 JS，因此没有悬停放大和复制微信号
 本仓库名必须与用户名一致：`FengLi-AI/FengLi-AI`。个人网站仓库 `FengLi-AI.github.io` 是另一个项目。
 
 发布前查看生成文件差异；发布后检查 GitHub 主页的实际图片、动画、文字链接，以及手机下的表格显示。
+
+## 产品思维版 V2
+
+右上标签为用户洞察、产品策略；滚动词条以中文产品方法为主，保留 AI、RAG、PRD、MVP。中文轮廓来自思源黑体粗体，英文缩写沿用 Humnst777。代表作表格保留发布前线上最新内容。

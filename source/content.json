@@ -10,16 +10,16 @@
     "accent": "#5A75FB"
   },
   "skills": [
-    "RERANK",
-    "HARNESS",
-    "EMBEDDING",
-    "CODEX",
-    "AI AGENTS",
-    "VS CODE",
-    "CLAUDE CODE",
-    "DIFY",
-    "FIGMA",
-    "COMFY UI"
+    "用户研究",
+    "需求定义",
+    "优先级判断",
+    "PRD",
+    "原型设计",
+    "MVP 验证",
+    "产品迭代",
+    "AI 智能体",
+    "RAG",
+    "人机协同"
   ],
   "links": {
     "website": "https://fengli-ai.github.io/",
@@ -32,7 +32,7 @@
     "screen_seconds": 8
   },
   "board_labels": {
-    "left": "PROMPT ENGINEERING",
-    "right": "AGENT LOOP"
+    "left": "用户洞察",
+    "right": "产品策略"
   }
 }

@@ -25,7 +25,7 @@ root = ET.parse(SRC/'figma-light.svg').getroot()
 root.set('role', 'img')
 root.set('aria-labelledby', 'profile-title profile-desc')
 title = el('title', id='profile-title'); title.text = 'FengLi — AI × Product Thinking'
-desc = el('desc', id='profile-desc'); desc.text = 'AI 产品探索工作台。技能：' + '、'.join(config['skills']) + '。个人网站、小红书与公众号的独立入口位于画面下方。'
+desc = el('desc', id='profile-desc'); desc.text = 'AI 产品经理工作台。关注：' + '、'.join(config['skills']) + '。个人网站、小红书与公众号的独立入口位于画面下方。'
 root.insert(0, title); root.insert(1, desc)
 nodes = {}
 for n in root.iter():
@@ -35,7 +35,7 @@ def cls(n, name):
 def parent(n):
     return next(p for p in root.iter() if n in list(p))
 
-# These ellipses describe AI practice; social navigation lives in the README text.
+# These ellipses describe product thinking; social navigation lives in the README text.
 for old,label,cx,cy,angle in [
     ('公众号_2',config['board_labels']['left'],915,207,0.68),
     ('小红书_2',config['board_labels']['right'],1206,188,-5),
@@ -137,13 +137,13 @@ static.remove(next(n for n in static if n.tag.endswith('style')))
 write_svg(static,ASSETS/'profile-light-static.svg')
 
 links=config['links']
-hero=f'<a href="{links["website"]}"><img src="assets/profile-light.svg" width="100%" alt="FengLi — AI × Product Thinking。等距 AI 工作台与循环滚动的软件、技术名称。点击访问个人网站。" /></a>'
+hero=f'<a href="{links["website"]}"><img src="assets/profile-light.svg?v=product-v2-zh" width="100%" alt="FengLi — AI × Product Thinking。等距产品工作台与循环滚动的产品方法、AI 能力。点击访问个人网站。" /></a>'
 body=(SRC/'profile-body.html').read_text()
 for key,url in links.items():body=body.replace('{{'+key+'}}',url)
 readme=hero+'\n\n<p align="center"><sub>点击上方 Signal Board，进入我的个人网站</sub></p>\n\n'+body
 (BASE/'README.md').write_text(readme)
-preview='''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FengLi · GitHub 浅色主页预览</title><style>
+preview='''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FengLi · GitHub 产品思维版 V2 · 预览</title><style>
 *{box-sizing:border-box}body{margin:0;background:#fff;color:#37383d;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{max-width:1100px;margin:28px auto 18px;padding:0 20px;display:flex;gap:18px;align-items:center}header small{color:#777}button{border:1px solid #d1d9e0;background:transparent;color:inherit;border-radius:6px;padding:7px 12px;cursor:pointer}main{max-width:940px;margin:0 auto 36px;border:1px solid #d1d9e0;border-radius:6px;padding:24px}.readme-label{font:12px monospace;margin-bottom:16px;color:#777}article img{max-width:100%;vertical-align:middle}article> a img{display:block}article p{margin:18px 0 0}article a{color:#0969da;text-decoration:none}article a:hover{text-decoration:underline}article p{font-size:16px;line-height:1.65}article h2{font-size:24px;line-height:1.4;border-bottom:1px solid #d1d9e0;padding-bottom:8px;margin:28px 0 16px}article hr{border:0;height:4px;background:#d1d9e0;margin:24px 0}article table{display:block;max-width:100%;overflow:auto;border-collapse:collapse;font-size:14px;line-height:1.55}article th,article td{padding:10px 12px;border:1px solid #d1d9e0}article th{font-weight:600}article tr:nth-child(even){background:#f6f8fa}article td:first-child{min-width:185px;overflow-wrap:anywhere}article td:last-child{min-width:92px}article ul{padding-left:24px;line-height:1.8;font-size:16px}article code{background:#eff1f3;border-radius:6px;padding:3px 6px;font-size:85%}body.dark article tr:nth-child(even),body.dark article code{background:#161b22}body.dark article a{color:#58a6ff}article sub{font-size:11px;color:#737b83}body.dark{background:#0d1117;color:#f0f6fc}body.dark main{border-color:#3d444d}@media(max-width:600px){header{margin:14px auto;flex-wrap:wrap}main{padding:12px;margin:0 8px}article p a img{width:190px}}
-</style><header><strong>GitHub README · 浅色版</strong><small>实际 SVG 图片模式</small><button id="theme">切换外围深浅色</button><button id="mobile">手机宽度</button></header><main><div class="readme-label">FengLi-AI / README.md</div><article>'''+readme+'''</article></main><script>document.getElementById('theme').onclick=()=>document.body.classList.toggle('dark');document.getElementById('mobile').onclick=()=>{let m=document.querySelector('main');m.style.maxWidth=m.style.maxWidth?'':'390px'};</script></html>'''
+</style><header><strong>GitHub README · 产品思维版 V2</strong><small>实际 SVG 图片模式</small><button id="theme">切换外围深浅色</button><button id="mobile">手机宽度</button></header><main><div class="readme-label">FengLi-AI / README.md</div><article>'''+readme+'''</article></main><script>document.getElementById('theme').onclick=()=>document.body.classList.toggle('dark');document.getElementById('mobile').onclick=()=>{let m=document.querySelector('main');m.style.maxWidth=m.style.maxWidth?'':'390px'};</script></html>'''
 (BASE/'index.html').write_text(preview)
 print(json.dumps({'svg_bytes':(ASSETS/'profile-light.svg').stat().st_size,'skills':len(config['skills']),'ticker_period':period,'links':3},ensure_ascii=False))

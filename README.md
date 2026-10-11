@@ -1,4 +1,4 @@
-<a href="https://fengli-ai.github.io/"><img src="assets/profile-light.svg" width="100%" alt="FengLi — AI × Product Thinking。等距 AI 工作台与循环滚动的软件、技术名称。点击访问个人网站。" /></a>
+<a href="https://fengli-ai.github.io/"><img src="assets/profile-light.svg?v=product-v2-zh" width="100%" alt="FengLi — AI × Product Thinking。等距产品工作台与循环滚动的产品方法、AI 能力。点击访问个人网站。" /></a>
 
 <p align="center"><sub>点击上方 Signal Board，进入我的个人网站</sub></p>
 
@@ -6,11 +6,11 @@
 
 <p>我是 <strong>FengLi / 李烽立，一名 AI 产品经理。</strong></p>
 
-<p>我围绕真实问题探索 AI 产品，从需求梳理、原型设计，到 Agent 产品、Skills 与工具实践。<br>
-也把过程中的方法与经验整理成文档、文章和可复用的工作流。<br>
-希望让技术回到具体的使用场景，把想法做成能用的东西。</p>
+<p>我从用户和具体场景出发，梳理问题、判断需求优先级，把想法推进到产品方案、原型与 MVP。<br>
+关注方案是否解决真实问题，也关注使用反馈如何转化为下一轮迭代。<br>
+在合适的环节引入 Agent、RAG 与可复用的工作流，让 AI 能力服务于人的工作。</p>
 
-<p><code>THINK</code> 从问题出发 &nbsp; · &nbsp; <code>BUILD</code> 动手验证 &nbsp; · &nbsp; <code>SHARE</code> 记录与分享</p>
+<p><code>洞察</code> 理解问题 &nbsp; · &nbsp; <code>定义</code> 明确取舍 &nbsp; · &nbsp; <code>验证</code> 验证价值</p>
 
 <p>🌐 <a href="https://fengli-ai.github.io/">个人网站</a> · 📕 <a href="https://www.xiaohongshu.com/user/profile/69b6dd97000000003303a64d">小红书</a> · 📝 <a href="https://mp.weixin.qq.com/s/YZA2Fc5PAcy_8diKF-hQNA">公众号</a></p>
 
@@ -33,7 +33,8 @@
 <h2>🎯 我的关注</h2>
 
 <ul>
-  <li><strong>产品思考：</strong>从用户、场景和问题出发，判断 AI 应该参与哪一步。</li>
-  <li><strong>动手实践：</strong>围绕 Agent、RAG 与工作流，做原型、工具和可复用的 Skills。</li>
-  <li><strong>表达与分享：</strong>把技术探索整理成产品文档、视觉内容和可理解的方法。</li>
+  <li><strong>用户与需求：</strong>理解使用场景，梳理用户旅程，找到值得解决的问题。</li>
+  <li><strong>方案与验证：</strong>明确优先级与产品边界，通过 PRD、原型和 MVP 推进方案并验证判断。</li>
+  <li><strong>AI 与协同：</strong>探索 Agent、RAG 与工作流，设计人工确认、反馈与评估环节。</li>
+  <li><strong>迭代与分享：</strong>把使用反馈转化为产品改进，也把实践整理成文档、文章与可复用的方法。</li>
 </ul>

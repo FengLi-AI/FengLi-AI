@@ -21,7 +21,7 @@
 <table>
   <thead><tr><th>Project</th><th>它解决什么</th><th>入口</th></tr></thead>
   <tbody>
-    <tr><td>🧭 <a href="https://github.com/FengLi-AI/InTeam"><strong>InTeam</strong></a></td><td>企业知识助手与任务准备 Agent，支持员工上手和展厅讲解；自主查阅资料、整理准备材料，行动由用户确认。</td><td><a href="https://github.com/FengLi-AI/InTeam">查看项目 ↗</a></td></tr>
+    <tr><td>🧭 <a href="https://github.com/FengLi-AI/InTeam"><strong>InTeam</strong></a></td><td>面向中小企业的企业知识问答与办公任务 Agent，支持 RAG 知识问答与预置企划/方案/报价单工作流；自主检索资料、生成材料，关键行动由用户确认。</td><td><a href="https://github.com/FengLi-AI/InTeam">查看项目 ↗</a></td></tr>
     <tr><td>🌱 <a href="https://github.com/FengLi-AI/JotBloom-Notch-Assistant"><strong>萌生｜JotBloom</strong></a></td><td>面向轻度创作与日常办公的 Mac 刘海屏助手，支持灵感记录、剪贴板回看、提示词管理与 AI 对话。</td><td><a href="https://fengli-ai.github.io/JotBloom-Notch-Assistant/">访问官网 ↗</a></td></tr>
     <tr><td>🎨 <a href="https://github.com/FengLi-AI/create-article-visuals"><strong>create-article-visuals</strong></a></td><td>为多平台文章策划、生成、检查与导出头图、正文配图和知识卡片。</td><td><a href="https://github.com/FengLi-AI/create-article-visuals">查看项目 ↗</a></td></tr>
     <tr><td>🧩 <a href="https://github.com/FengLi-AI/agent-blueprint-v1.3"><strong>agent-blueprint-v1.3</strong></a></td><td>把 Agent 需求映射到架构方案、Harness 组件与项目骨架，提供落地参考。</td><td><a href="https://github.com/FengLi-AI/agent-blueprint-v1.3">查看项目 ↗</a></td></tr>
